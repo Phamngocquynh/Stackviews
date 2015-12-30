@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A204C8941C340C7200D58CAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A204C8931C340C7200D58CAC /* AppDelegate.swift */; };
+		A204C8961C340C7200D58CAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A204C8951C340C7200D58CAC /* ViewController.swift */; };
+		A204C8991C340C7200D58CAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A204C8971C340C7200D58CAC /* Main.storyboard */; };
+		A204C89B1C340C7200D58CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A204C89A1C340C7200D58CAC /* Assets.xcassets */; };
+		A204C89E1C340C7200D58CAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A204C89C1C340C7200D58CAC /* LaunchScreen.storyboard */; };
+		A204C8AF1C34201500D58CAC /* chucks.png in Resources */ = {isa = PBXBuildFile; fileRef = A204C8A91C34201500D58CAC /* chucks.png */; };
+		A204C8B01C34201500D58CAC /* shoes1.png in Resources */ = {isa = PBXBuildFile; fileRef = A204C8AA1C34201500D58CAC /* shoes1.png */; };
+		A204C8B11C34201500D58CAC /* shoes2.png in Resources */ = {isa = PBXBuildFile; fileRef = A204C8AB1C34201500D58CAC /* shoes2.png */; };
+		A204C8B21C34201500D58CAC /* shoes3.png in Resources */ = {isa = PBXBuildFile; fileRef = A204C8AC1C34201500D58CAC /* shoes3.png */; };
+		A204C8B31C34201500D58CAC /* shoes4.png in Resources */ = {isa = PBXBuildFile; fileRef = A204C8AD1C34201500D58CAC /* shoes4.png */; };
+		A204C8B41C34201500D58CAC /* shoes5.png in Resources */ = {isa = PBXBuildFile; fileRef = A204C8AE1C34201500D58CAC /* shoes5.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A204C8901C340C7200D58CAC /* stackatada-stack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stackatada-stack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A204C8931C340C7200D58CAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A204C8951C340C7200D58CAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A204C8981C340C7200D58CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A204C89A1C340C7200D58CAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A204C89D1C340C7200D58CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A204C89F1C340C7200D58CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A204C8A91C34201500D58CAC /* chucks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chucks.png; sourceTree = "<group>"; };
+		A204C8AA1C34201500D58CAC /* shoes1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoes1.png; sourceTree = "<group>"; };
+		A204C8AB1C34201500D58CAC /* shoes2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoes2.png; sourceTree = "<group>"; };
+		A204C8AC1C34201500D58CAC /* shoes3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoes3.png; sourceTree = "<group>"; };
+		A204C8AD1C34201500D58CAC /* shoes4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoes4.png; sourceTree = "<group>"; };
+		A204C8AE1C34201500D58CAC /* shoes5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoes5.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A204C88D1C340C7200D58CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A204C8871C340C7100D58CAC = {
+			isa = PBXGroup;
+			children = (
+				A204C8921C340C7200D58CAC /* stackatada-stack */,
+				A204C8911C340C7200D58CAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A204C8911C340C7200D58CAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A204C8901C340C7200D58CAC /* stackatada-stack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A204C8921C340C7200D58CAC /* stackatada-stack */ = {
+			isa = PBXGroup;
+			children = (
+				A204C8931C340C7200D58CAC /* AppDelegate.swift */,
+				A204C8951C340C7200D58CAC /* ViewController.swift */,
+				A204C8971C340C7200D58CAC /* Main.storyboard */,
+				A204C89A1C340C7200D58CAC /* Assets.xcassets */,
+				A204C89C1C340C7200D58CAC /* LaunchScreen.storyboard */,
+				A204C89F1C340C7200D58CAC /* Info.plist */,
+				A204C8B51C34320000D58CAC /* Images */,
+			);
+			path = "stackatada-stack";
+			sourceTree = "<group>";
+		};
+		A204C8B51C34320000D58CAC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A204C8A91C34201500D58CAC /* chucks.png */,
+				A204C8AA1C34201500D58CAC /* shoes1.png */,
+				A204C8AB1C34201500D58CAC /* shoes2.png */,
+				A204C8AC1C34201500D58CAC /* shoes3.png */,
+				A204C8AD1C34201500D58CAC /* shoes4.png */,
+				A204C8AE1C34201500D58CAC /* shoes5.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A204C88F1C340C7200D58CAC /* stackatada-stack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A204C8A21C340C7200D58CAC /* Build configuration list for PBXNativeTarget "stackatada-stack" */;
+			buildPhases = (
+				A204C88C1C340C7200D58CAC /* Sources */,
+				A204C88D1C340C7200D58CAC /* Frameworks */,
+				A204C88E1C340C7200D58CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "stackatada-stack";
+			productName = "stackatada-stack";
+			productReference = A204C8901C340C7200D58CAC /* stackatada-stack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A204C8881C340C7100D58CAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Pham ngoc Quynh";
+				TargetAttributes = {
+					A204C88F1C340C7200D58CAC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = UFE66N8USS;
+					};
+				};
+			};
+			buildConfigurationList = A204C88B1C340C7100D58CAC /* Build configuration list for PBXProject "stackatada-stack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A204C8871C340C7100D58CAC;
+			productRefGroup = A204C8911C340C7200D58CAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A204C88F1C340C7200D58CAC /* stackatada-stack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A204C88E1C340C7200D58CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A204C8B01C34201500D58CAC /* shoes1.png in Resources */,
+				A204C89E1C340C7200D58CAC /* LaunchScreen.storyboard in Resources */,
+				A204C89B1C340C7200D58CAC /* Assets.xcassets in Resources */,
+				A204C8B41C34201500D58CAC /* shoes5.png in Resources */,
+				A204C8B31C34201500D58CAC /* shoes4.png in Resources */,
+				A204C8B11C34201500D58CAC /* shoes2.png in Resources */,
+				A204C8AF1C34201500D58CAC /* chucks.png in Resources */,
+				A204C8B21C34201500D58CAC /* shoes3.png in Resources */,
+				A204C8991C340C7200D58CAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A204C88C1C340C7200D58CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A204C8961C340C7200D58CAC /* ViewController.swift in Sources */,
+				A204C8941C340C7200D58CAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A204C8971C340C7200D58CAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A204C8981C340C7200D58CAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A204C89C1C340C7200D58CAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A204C89D1C340C7200D58CAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A204C8A01C340C7200D58CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A204C8A11C340C7200D58CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A204C8A31C340C7200D58CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "stackatada-stack/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PNQ.stackatada-stack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A204C8A41C340C7200D58CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "stackatada-stack/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PNQ.stackatada-stack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A204C88B1C340C7100D58CAC /* Build configuration list for PBXProject "stackatada-stack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A204C8A01C340C7200D58CAC /* Debug */,
+				A204C8A11C340C7200D58CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A204C8A21C340C7200D58CAC /* Build configuration list for PBXNativeTarget "stackatada-stack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A204C8A31C340C7200D58CAC /* Debug */,
+				A204C8A41C340C7200D58CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A204C8881C340C7100D58CAC /* Project object */;
+}
